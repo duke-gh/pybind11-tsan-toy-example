@@ -51,7 +51,7 @@ emdb-test
 ```
 mkdir embd-test-build
 cd embd-test-build
-cmake ../embd-test/ -GNinja -DCMAKE_CXX_COMPILER=clang++ -DPython_EXECUTABLE=$HOME/repos/python-tsan/bin/python3  -DPython_ROOT_DIR=$HOME/repos/python-tsan -DPython_INCLUDE_DIR=$HOME/repos/python-tsan/include/python3.12d
+cmake ../pybind11-tsan-toy-example/ -GNinja -DCMAKE_CXX_COMPILER=clang++ -DPython_EXECUTABLE=$HOME/repos/python-tsan/bin/python3  -DPython_ROOT_DIR=$HOME/repos/python-tsan -DPython_INCLUDE_DIR=$HOME/repos/python-tsan/include/python3.12d
 ninja
 ```
 
